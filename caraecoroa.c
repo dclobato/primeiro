@@ -18,5 +18,6 @@ int main()
       else             joao++;
     }
     printf("Maria ganhou %d vezes e Joao ganhou %d vezes\n", maria, joao);
+    scanf("%d", &jogadas);
   }
 }
