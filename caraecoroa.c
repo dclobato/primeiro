@@ -6,6 +6,7 @@ int main()
   int maria, joao;
   int jogadas, i, jogada;
   
+  scanf("%d", &jogadas);
   while (jogadas != 0)
   {
     caras = 0;
@@ -17,6 +18,5 @@ int main()
       else             joao++;
     }
     printf("Maria ganhou %d vezes e Joao ganhou %d vezes\n", maria, joao);
-    scanf("%d", &jogadas);
   }
 }
